@@ -1,0 +1,20 @@
+author: Matthew Miner
+baseurl: ""
+compress_html:
+  clippings: all
+  comments: ["/*! ", " */"]
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+description: Software Developer (Games / Film)
+permalink: /:year/:month/:day/:title
+plugins:
+  - jekyll-feed
+sass:
+  style: compressed
+title: Matthew Miner
+url: "https://matthewminer.com"
