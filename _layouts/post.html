@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<article>
+  <header>
+    <h1>
+      <a href="{{ page.url }}">
+        {{ page.title | smartify }}
+      </a>
+    </h1>
+
+    <time datetime="{{ page.date | date: "%Y-%m-%d" }}">
+      {{ page.date | date: "%B %-d, %Y" }}
+    </time>
+  </header>
+
+  {{ content }}
+</article>

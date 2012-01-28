@@ -1,0 +1,348 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+blockquote,
+dl,
+figure,
+form,
+h1, h2, h3, h4, h5, h6,
+ol,
+p,
+pre,
+table,
+ul {
+  margin: 2rem 0;
+}
+
+a {
+  color: #2980b9;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
+
+  &.image-link, &:hover {
+    text-decoration: none;
+  }
+
+  &:visited {
+    color: #8e44ad;
+  }
+}
+
+abbr,
+abbr[title] {
+  text-decoration: none;
+}
+
+article {
+  margin-top: 12rem;
+
+  header {
+    margin-bottom: 4rem;
+
+    a, a:hover, a:visited, a:visited:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    code {
+      font-size: 3rem;
+      font-weight: normal;
+    }
+
+    h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+      text-wrap: balance;
+    }
+
+    time {
+      color: #999;
+      font-size: 1.6rem;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+blockquote {
+  border-left: 0.2rem solid #eee;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  padding-left: 2rem;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 700px;
+  padding: 4rem 20px;
+}
+
+code,
+kbd {
+  font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h2, h3, h4, h5, h6 {
+  font-size: 2rem;
+  margin-top: 4rem;
+}
+
+hr {
+  border-color: #eee;
+  border-style: solid;
+  border-width: 0.2rem 0 0 0;
+  margin: 4rem auto;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+
+  /* Set up font sizes so that 1rem = 10px. */
+  font-size: 62.5%;
+}
+
+iframe {
+  border: none;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+kbd {
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 0.3rem;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  padding: 0.3rem 0.5rem;
+}
+
+p a:has(code) {
+  text-decoration: none;
+}
+
+p code {
+  font-size: 1.5rem;
+  background-color: #eee;
+  border-radius: 0.2rem;
+  padding: 0.2rem 0.4rem;
+  white-space: nowrap;
+}
+
+pre {
+  background-color: #eee;
+  font-size: 1.5rem;
+  margin-left: -20px;
+  margin-right: -20px;
+  overflow-x: auto;
+  padding: 2rem 20px;
+
+  code {
+    display: block;
+    padding: 0;
+    white-space: pre;
+  }
+}
+
+section {
+  margin-top: 8rem;
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+ul {
+  list-style-type: square;
+}
+
+video {
+  max-width: 100%;
+}
+
+[role="banner"] {
+  a {
+    color: inherit;
+    display: block;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.6rem;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+
+  h1 {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin: 0;
+    text-transform: uppercase;
+  }
+}
+
+#about {
+  img {
+    border-radius: 0.5rem;
+    display: block;
+    float: left;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+  }
+}
+
+#blog {
+  code {
+    font-size: 1.6rem;
+  }
+
+  li {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  time {
+    color: #333;
+    font-size: 1.6rem;
+    margin-right: 0.5rem;
+
+    /* Enable tabular (monospaced) numbers so that they align. */
+    font-feature-settings: "tnum";
+  }
+
+  ul {
+    /* Set color of text to same as links so that overflow ellipsis matches. */
+    color: #2980b9;
+  }
+}
+
+#social {
+  path {
+    fill: #333;
+  }
+
+  svg {
+    height: 2rem;
+    margin-right: 0.5rem;
+    position: relative;
+    width: 2rem;
+    vertical-align: text-bottom;
+  }
+
+  .email    svg { top: -1px; }
+  .github   svg { top: -2px; }
+  .linkedin svg { top: -2px; }
+  .youtube  svg { top: -1px; }
+}
+
+.footnote {
+  text-decoration: none;
+}
+
+.footnote::before {
+  content: "[";
+}
+
+.footnote::after {
+  content: "]";
+}
+
+.footnotes {
+  font-size: 1.4rem;
+
+  blockquote, p {
+    margin: 1rem 0;
+  }
+
+  blockquote {
+    font-size: inherit;
+    padding-left: 1rem;
+  }
+
+  code {
+    font-size: 1.2rem;
+  }
+
+  ol {
+    /* Add extra space to keep list numbers inside article width. */
+    padding-left: 2rem;
+  }
+
+  :target {
+    background-color: #eee;
+  }
+}
+
+.reversefootnote {
+  font-size: 75%;
+  text-decoration: none;
+}
+
+/* Make videos scale to fit mobile.
+ * https://stackoverflow.com/a/15844571
+ */
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%; /* 16/9 */
+  position: relative;
+
+  iframe {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+@media (max-height: 700px) {
+  article {
+    margin-top: 6rem;
+  }
+
+  body {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+  section {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #about {
+    img {
+      float: none;
+      margin-right: 0;
+    }
+  }
+}

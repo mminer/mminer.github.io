@@ -1,0 +1,51 @@
+@media print {
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  a {
+    border-color: gray;
+    color: gray;
+  }
+
+  code {
+    background-color: transparent;
+  }
+
+  pre {
+    background-color: transparent;
+    border: 1px solid lightgray;
+
+    span {
+      color: black !important;
+    }
+  }
+
+  header[role="banner"] {
+    margin-bottom: 4rem;
+
+    a {
+      color: black;
+    }
+  }
+
+  article, main {
+    header {
+      background-color: transparent;
+
+      time {
+        color: gray;
+      }
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      background-color: transparent;
+      color: black;
+    }
+  }
+
+  main time {
+    color: black;
+  }
+}
