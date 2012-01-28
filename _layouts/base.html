@@ -1,0 +1,41 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Matthew Miner (matthew@matthewminer.com)">
+  <meta name="copyright" content="&copy; {{ site.time | date: "%Y" }} Matthew Miner">
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>
+    {% if page.title %}{{ page.title | strip_html }}{% else %}{{ site.title }}{% endif %}
+  </title>
+
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
+  {% feed_meta %}
+
+  {% capture style %}
+  {% include style.scss %}
+  {% endcapture %}
+
+  <style>{{ style | scssify }}</style>
+</head>
+<body>
+
+  <header role="banner">
+    <h1>
+      <a href="/" title="Home">Matthew Miner</a>
+    </h1>
+  </header>
+
+  {{ content }}
+
+</body>
+</html>
