@@ -2,7 +2,7 @@
 title: "Unity Recorder Plugin Starter"
 ---
 
-Last week I wrote about [Big Image Recorder](/2021/05/24/big-image-recorder-for-unity), a plugin for [Unity Recorder](https://docs.unity3d.com/Manual/com.unity.recorder.html) that captures massive renders of your scene. Though Recorder's docs make no mention of it, creating a plugin is straightforward.[^1]
+Last week I wrote about [Big Image Recorder](/2021/05/24/big-image-recorder-for-unity), a plugin for [Unity Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@latest/index.html) that captures massive renders of your scene. Though Recorder's docs make no mention of it, creating a plugin is straightforward.[^1]
 
 If you want to make your own, I knocked together a [starter project](https://github.com/mminer/recorder-plugin-starter) with a minimal implementation. It takes a camera and saves the frames as an image sequence. Recorder already outputs image sequences, and with more options, but you can use this bare-bones package as a jumping-off point to extend its functionality.
 

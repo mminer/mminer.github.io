@@ -6,7 +6,7 @@ Want to record an enormous video of your Unity game? Fancy skipping 8K and going
 
 <img alt="8K vs. 100K size comparison" srcset="/images/8k-100k-size-comparison.png 1x, /images/8k-100k-size-comparison@2x.png 2x" src="/images/8k-100k-size-comparison.png">
 
-[Big Image Recorder](https://github.com/mminer/big-image-recorder) is a [Unity Recorder](https://docs.unity3d.com/Manual/com.unity.recorder.html) plugin that captures an image sequence at a higher resolution than the maximum texture size. To do this it divides the camera's projection matrix into tiles and saves the renders as individual images to stitch together.
+[Big Image Recorder](https://github.com/mminer/big-image-recorder) is a [Unity Recorder](https://docs.unity3d.com/Packages/com.unity.recorder@latest/index.html) plugin that captures an image sequence at a higher resolution than the maximum texture size. To do this it divides the camera's projection matrix into tiles and saves the renders as individual images to stitch together.
 
 <img alt="Tile images" srcset="/images/tile-images.png 1x, /images/tile-images@2x.png 2x" src="/images/tile-images.png">
 
