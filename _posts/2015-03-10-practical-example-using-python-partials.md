@@ -70,7 +70,6 @@ This technique makes `fetch_all_pages` much more reusable. Need to include custo
 
 ---
 
-
 <small>
     Code from this post [viewable on GitHub](https://github.com/mminer/blog-code/tree/master/practical-example-using-python-partials).
 </small>
