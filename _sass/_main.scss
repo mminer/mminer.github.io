@@ -28,6 +28,10 @@ a {
     border-bottom-width: 0;
   }
 
+  &:has(code) {
+    border-bottom-width: 0;
+  }
+
   &:hover {
     border-color: transparent;
     color: #20638f;
