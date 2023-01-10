@@ -6,7 +6,7 @@ Say you want to add an [XPC Service](https://developer.apple.com/library/archive
 
 After creating an XPC Service target, here named "MyService", we have four files: *main.m*, *MyService.h*, *MyService.m*, and *MyServiceProtocol.h*. Rename these to *main.swift*, *MyService.swift*, *MyServiceDelegate.swift*, and *MyServiceProtocol.swift*. Next, add them to the target's "Compile Sources" build phase.
 
-<img alt="Xcode Build Phases" srcset="/images/xpc-build-phases.png 1x, /images/xpc-build-phases@2x.png 2x" src="/images/xpc-build-phases.png">
+![Xcode Build Phases](/images/xpc-build-phases.png)
 
 Now replace the Objective-C code in each file with its Swift translation.
 
@@ -63,7 +63,7 @@ Before compiling this code we need to tweak build settings:
 - **Runtime Search Paths**: @loader_path/../../../../Frameworks
 - **Swift Language Version**: whatever version of Swift you use
 
-<img alt="Xcode Build Settings" srcset="/images/xpc-build-settings.png 1x, /images/xpc-build-settings@2x.png 2x" src="/images/xpc-build-settings.png">
+![Xcode Build Settings](/images/xpc-build-settings.png)
 
 With any luck we can now build. In our main application we delegate a task to our service by creating an [`NSXPCConnection`](https://developer.apple.com/documentation/foundation/nsxpcconnection) with the name of the target's bundle identifier then calling the functions defined in `MyService`.
 

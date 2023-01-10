@@ -8,7 +8,7 @@ Sometimes in Unity I want to quickly re-select a game object I previously had se
 
 After navigating backward, you can also navigate forward using <kbd>command</kbd> <kbd>]</kbd> (macOS) or <kbd>ctrl</kbd> <kbd>]</kbd> (Windows). The more mouse-inclined can find the corresponding menu items under the *Edit > Selection* menu.
 
-<img alt="Selection History Navigator menu" srcset="/images/selection-history-navigator.png 1x, /images/selection-history-navigator@2x.png 2x" src="/images/selection-history-navigator.png">
+![Selection History Navigator menu](/images/selection-history-navigator.png)
 
 Sidebar: if you're unfamiliar with the Load / Save Selection options also under *Edit > Selection*, you owe it to yourself to become acquainted with them. Damn useful. Hunting around for the deeply nested game object you had selected moments ago can be a thing of the past and if that's not worth celebrating then nothing is.
 

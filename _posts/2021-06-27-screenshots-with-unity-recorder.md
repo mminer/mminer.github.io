@@ -26,6 +26,6 @@ If you only need screenshots from the editor, consider Unity's [Recorder](https:
 1. Uncheck *Exit Play Mode*
 1. When you need a screenshot, hit *Start Recording*
 
-<img alt="Unity Recorder configured for screenshot" srcset="/images/unity-recorder-screenshot.png 1x, /images/unity-recorder-screenshot@2x.png 2x" src="/images/unity-recorder-screenshot.png">
+![Unity Recorder configured for screenshot](/images/unity-recorder-screenshot.png)
 
 It puts `ScreenCapture.CaptureScreenshot` to shame.

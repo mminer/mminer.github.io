@@ -14,7 +14,7 @@ In time for Halloween but late for the 20<sup>th</sup> anniversary of The Smashi
 
 Implementing dark mode support on this blog was a breeze thanks to its grand total of 13 colours. I took the lazy route and inverted most of them using Sass' [`invert`](http://sass-lang.com/documentation/Sass/Script/Functions.html#invert-instance_method) function. The end result looks respectable given the minimal effort expended.
 
-<img alt="Dark mode CSS comparison" srcset="/images/dark-mode-css-comparison.png 1x, /images/dark-mode-css-comparison@2x.png 2x" src="/images/dark-mode-css-comparison.png">
+![Dark mode CSS comparison](/images/dark-mode-css-comparison.png)
 
 I doubt we'll see widespread adoption of `prefers-color-scheme` --- providing multiple themes would be a serious undertaking for many websites --- but it'll be useful for web apps that strive to honour the user's preferences. Because the customer is always right, power to the people, yadda yadda yadda.
 

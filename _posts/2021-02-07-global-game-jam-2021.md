@@ -10,7 +10,7 @@ Our team --- Brad Keys in rural Ontario, Brent Mitchell in Berlin, and myself in
 
 We chatted on Discord, scribbled ideas in Google Docs, and organized tasks with a GitHub project board. I left the game design to the other lads and tackled technical challenges I found interesting --- pathfinding, fog of war, icon colour. We managed to avoid merge conflicts in our scenes, the bane of my existence in Unity projects.
 
-<img alt="Global Game Jam 2021 Unity editor" srcset="/images/ggj2021-unity.png 1x, /images/ggj2021-unity@2x.png 2x" src="/images/ggj2021-unity.png">
+![Global Game Jam 2021 Unity editor](/images/ggj2021-unity.png)
 
 I struggle to remember how we collaborated in the first Global Game Jam. It was 2009 and GitHub was in its infancy. Git existed, but we weren't using it. I have a faint memory of feverishly passing around USB sticks as the deadline approached. I complain about scene file conflicts now, but we've come a long way baby.
 

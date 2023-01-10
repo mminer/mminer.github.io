@@ -90,7 +90,7 @@ FlatBuffers work well for Streak. The performance gains vastly improve the user 
 
 It's unfamiliar technology for one. Prior to joining Streak I had used Thrift and Protocol Buffers, but FlatBuffers hadn't crossed my radar. Binary formats of any kind add developer friction and FlatBuffers are no exception. Inspect a binary response in Chrome DevTools and you'll see something that looks like this:
 
-<img alt="Inspecting FlatBuffers response in Chrome DevTools" src="/images/flatbuffers-chrome-inspector.png">
+![Inspecting FlatBuffers response in Chrome DevTools](/images/flatbuffers-chrome-inspector.png)
 
 There are workarounds --- you can serve JSON in your development environment and FlatBuffers in production --- but it's complexity you previously didn't have.
 

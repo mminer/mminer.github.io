@@ -10,7 +10,7 @@ If you had asked nine-year-old me how well The Lego Group was doing, I would hav
 
 Anyway, here's the Lego Saturn V rocket I built.
 
-<img alt="Lego Saturn V rocket" srcset="/images/lego-saturn-v.jpg 1x, /images/lego-saturn-v@2x.jpg 2x" src="/images/lego-saturn-v.jpg">
+![Lego Saturn V rocket](/images/lego-saturn-v.jpg)
 
 ---
 

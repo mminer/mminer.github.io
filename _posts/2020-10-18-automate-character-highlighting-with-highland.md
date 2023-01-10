@@ -4,7 +4,7 @@ title: "Automate Character Highlighting with Highland"
 
 [Highland](https://quoteunquoteapps.com/highland-2/), the program I use for screenwriting, has a useful feature to highlight a character's dialogue.
 
-<img alt="Return to Black Creek highlighted script" srcset="/images/return-to-black-creek-highlighted.png 1x, /images/return-to-black-creek-highlighted@2x.png 2x" src="/images/return-to-black-creek-highlighted.png">
+![Return to Black Creek highlighted script](/images/return-to-black-creek-highlighted.png)
 
 Recently I cohosted a reading of *Return to Black Creek*, a comedy slasher I penned with my writing partner Stephen T. Holmes. To help the actors find their lines, we sent each a personalized PDF of the script with their character highlighted.
 
@@ -59,7 +59,7 @@ os.rename(temp_path, file_path)
 
 To export the result to a PDF I used Keyboard Maestro to click through Highland's menu items.
 
-<img alt="Keyboard Maestro export to PDF macro" srcset="/images/keyboard-maestro-export-highland-pdf.png 1x, /images/keyboard-maestro-export-highland-pdf@2x.png 2x" src="/images/keyboard-maestro-export-highland-pdf.png">
+![Keyboard Maestro export to PDF macro](/images/keyboard-maestro-export-highland-pdf.png)
 
 You can probably use AppleScript to achieve the same result. I just don't have patience for AppleScript's arcane syntax.
 

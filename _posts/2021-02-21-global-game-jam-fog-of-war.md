@@ -8,15 +8,15 @@ My first instinct was to tile black sprites above the level then destroy them as
 
 Instead I arrived at a solution that overlays a single giant texture above the level then cuts out parts where the player moves. The first step is to spawn sprites at the coordinates the player visits.
 
-<img alt="Fog of war sprites" srcset="/images/fog-of-war-sprites.png 1x, /images/fog-of-war-sprites@2x.png 2x" src="/images/fog-of-war-sprites.png">
+![Fog of war sprites](/images/fog-of-war-sprites.png)
 
 Add these sprites to a `Fog` layer that the main camera ignores. Then use an orthographic camera to capture the sprites to a render texture. Set this camera to *only* see the `Fog` layer.
 
-<img alt="Fog of war camera" srcset="/images/fog-of-war-camera.png 1x, /images/fog-of-war-camera@2x.png 2x" src="/images/fog-of-war-camera.png">
+![Fog of war camera](/images/fog-of-war-camera.png)
 
 Finally, use a shader to make opaque parts of the render texture transparent and transparent parts opaque.
 
-<img alt="Fog of war cutout" srcset="/images/fog-of-war-cutout.png 1x, /images/fog-of-war-cutout@2x.png 2x" src="/images/fog-of-war-cutout.png">
+![Fog of war cutout](/images/fog-of-war-cutout.png)
 
 This was the most difficult step. The shader is simple --- just invert each pixel's alpha value --- but my HLSL prowess is lacking so it took me a while to crack.
 
@@ -90,6 +90,6 @@ Shader "Unlit/FogOfWarCutout"
 
 An interesting property of using a render texture is that lowering its resolution causes the fog's edges to appear smoother. Blurring the sprite texture compounds this effect, leaving us with a handsome blend from transparent to opaque.
 
-<img alt="Fog of war final result" srcset="/images/fog-of-war-final.png 1x, /images/fog-of-war-final@2x.png 2x" src="/images/fog-of-war-final.png">
+![Fog of war final result](/images/fog-of-war-final.png)
 
 Smooth as Santana.

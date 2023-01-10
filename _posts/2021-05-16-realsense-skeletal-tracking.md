@@ -4,11 +4,11 @@ title: "RealSense Skeletal Tracking"
 
 This is the [Intel RealSense D415 depth camera](https://www.intelrealsense.com/depth-camera-d415/).
 
-<img alt="Intel RealSense D415" srcset="/images/realsense-d415.jpg 1x, /images/realsense-d415@2x.jpg 2x" src="/images/realsense-d415.jpg">
+![Intel RealSense D415](/images/realsense-d415.jpg)
 
 I tinkered with one of these when I worked on [MixCast](https://mixcast.me). We used it for background removal without the need for a green screen. It's a nifty device. It sports a regular RGB camera but also tells you how far away objects are via... lasers? I don't understand how it works. It's like the Xbox Kinect when that was a thing.[^1]
 
-<img alt="RealSense depth view" srcset="/images/realsense-depth-view.png 1x, /images/realsense-depth-view@2x.png 2x" src="/images/realsense-depth-view.png">
+![RealSense depth view](/images/realsense-depth-view.png)
 
 On a whim I tried it for skeletal tracking. I first gave Intel's [officially sanctioned SDK](https://www.intelrealsense.com/skeleton-tracking/) a whirl. No luck. Next I tried [Nuitrack](https://nuitrack.com). Much better. I was able to open their Unity project and wire it up to an armature with minimal effort. I used characters from [The Realtime Rascals](https://assetstore.unity.com/packages/3d/the-realtime-rascals-191779), assets that Unity built to demo realtime filmmaking.[^2]
 

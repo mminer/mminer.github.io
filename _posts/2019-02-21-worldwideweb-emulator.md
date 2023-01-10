@@ -6,7 +6,7 @@ This is fun: you can now run WorldWideWeb, the world's first web browser, [insid
 
 Other than enormous site maps and special characters appearing as hexadecimal gibberish, article-focused websites like Wikipedia and The New York Times are surprisingly usable. This blog, with the current design's austere lack of ornamentation, looks almost the same.
 
-<img alt="WorldWideWeb emulator showing this blog post" src="/images/worldwideweb-emulator.png">
+![WorldWideWeb emulator showing this blog post](/images/worldwideweb-emulator.png)
 
 No images though, and definitely no JavaScript (it wasn't invented for another five years), so don't build your guide for 90s time travellers in React.
 

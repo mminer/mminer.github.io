@@ -80,7 +80,7 @@ class Icon : VisualElement
 
 The secret sauce is `_symbolGlyphMap`. It translates `Symbol` members to the Unicode character that the glyph is assigned to. For this example I used popular icon library [Font Awesome](https://fontawesome.com) and copied the Unicode characters from its website.
 
-<img alt="Font Awesome Unicode character" src="/images/font-awesome-unicode.png">
+![Font Awesome Unicode character](/images/font-awesome-unicode.png)
 
 In UI Builder you can choose the symbol from a dropdown in the inspector then change its color and font size styles. Give it an outline or text shadow if you feel adventurous.
 
@@ -88,7 +88,7 @@ In UI Builder you can choose the symbol from a dropdown in the inspector then ch
 
 There are oodles of great icon fonts like the aforementioned Font Awesome, but you can also create your own using online tools like [IcoMoon](https://icomoon.io). Upload your SVGs, choose which character corresponds to each icon, and download a TTF file to import into your Unity project.
 
-<img alt="IcoMoon" srcset="/images/icomoon.png 1x, /images/icomoon@2x.png 2x" src="/images/icomoon.png">
+![IcoMoon](/images/icomoon.png)
 
 Adding entries to your `Symbol` enum and `_symbolGlyphMap` dictionary will be tedious if you do it by hand. You're gonna want to automate that one.
 

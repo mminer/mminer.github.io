@@ -8,4 +8,4 @@ Game engines have always seemed to me a natural fit for filmmaking. Unity's Time
 
 Also, here's a troll trying to crush me outside Weta Workshop:
 
-<img alt="Troll outside Weta Workshop" srcset="/images/weta-troll.jpg 1x, /images/weta-troll@2x.jpg 2x" src="/images/weta-troll.jpg">
+![Troll outside Weta Workshop](/images/weta-troll.jpg)

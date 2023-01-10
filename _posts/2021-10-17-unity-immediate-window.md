@@ -6,7 +6,7 @@ Ages ago, when Unity 3 was still in beta, I [wrote about](/2010/11/14/unity-edit
 
 Immediate Window provides a more fully fledged REPL --- you can inspect returned objects, import assemblies on the fly, and reference variables you previously defined. It's a useful tool for quick debugging or to experiment with an API. Maybe some editor automation? Oh baby oh baby.
 
-<img alt="Unity Immediate Window" srcset="/images/immediate-window.png 1x, /images/immediate-window@2x.png 2x" src="/images/immediate-window.png">
+![Unity Immediate Window](/images/immediate-window.png)
 
 Under the hood it depends on Unity's [Code Analysis package](https://docs.unity3d.com/Packages/com.unity.code-analysis@0.1/manual/index.html), which includes Microsoft.CodeAnalysis DLLs. In particular, `Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript.EvaluateAsync` does the heavy lifting of evaluating arbitrary C# code.
 

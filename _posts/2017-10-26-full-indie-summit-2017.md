@@ -4,7 +4,7 @@ title: "Full Indie Summit 2017"
 
 [Full Indie Summit](http://www.fullindiesummit.com) is a damn fine conference and this year was no exception. Presentations covered a variety of topics, from technical post-mortems to business advice. Even for those only tangentially involved in game development, there was something to interest everyone. The seats were also comfortable. Very important.
 
-<img alt="Full Indie Summit 2017 wristband" srcset="/images/fullindie2017.jpg 1x, /images/fullindie2017@2x.jpg 2x" src="/images/fullindie2017.jpg">
+![Full Indie Summit 2017 wristband](/images/fullindie2017.jpg)
 
 ## Em Halberstadt: How Sound Tells the Story of *Night in the Woods*
 

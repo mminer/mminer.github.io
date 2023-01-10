@@ -7,7 +7,7 @@ Here are books I read recently. Mix of technical, non-fiction, and power-hungry 
 
 ## The Soul of a New Machine
 
-<img alt="The Soul of a New Machine book cover" srcset="/images/soul-of-a-new-machine.jpg 1x, /images/soul-of-a-new-machine@2x.jpg 2x" src="/images/soul-of-a-new-machine.jpg">
+![The Soul of a New Machine book cover](/images/soul-of-a-new-machine.jpg)
 
 Love this one. I'm fascinated by stories about the dawn of computers --- before smartphones and tablets, before the World Wide Web and the ubiquity of the Internet. Applications like instant communication and immersive virtual reality and Google Maps are what excite me about computers,[^1] but here you have engineers waxing poetic about pure, raw *machines*. Did they see the potential in what they were building? Was that even possible? I dig computer science but I'm unsure I'd want to work in the industry if payroll software was the hot thing.
 
@@ -17,7 +17,7 @@ My biggest takeaway: debugging hardware sounds hellish. Wire-wrapped boards soun
 
 ## The C Programming Language
 
-<img alt="The C Programming Language book cover" srcset="/images/c-programming-language.jpg 1x, /images/c-programming-language@2x.jpg 2x" src="/images/c-programming-language.jpg">
+![The C Programming Language book cover](/images/c-programming-language.jpg)
 
 I picked this up in my ongoing effort to consume the classics of computer science. It's well-written, lean and to the point, but I didn't get a lot out of it. I've used C-inspired languages for years so none of the constructs were new. If you're starting out though and will use C professionally it might be a decent first resource. The exercises make for fun challenges.
 
@@ -25,7 +25,7 @@ The minimalism of C is refreshing compared with complex monstrosities like C++. 
 
 ## A Tour of C++
 
-<img alt="A Tour of C++ book cover" src="/images/tour-of-cpp.png">
+![A Tour of C++ book cover](/images/tour-of-cpp.png)
 
 This one's a perfect balance between beginner-focused "this is a `for` loop" introductions and the giant tomes that explain every facet of a language. The author (also the author of C++ itself) makes a convincing case that modern C++ is different from and far superior to its earlier incarnations. Some of the new C++20 features like modules and concepts promise to make writing certain kinds of software a helluva lot easier. It's going to be a long time before codebases rock the latest and greatest --- most C++ I’ve touched recently has yet to adopt C++11 --- but the language's future looks bright.
 
@@ -33,13 +33,13 @@ I would love to see this sort of whirlwind tour for other languages.
 
 ## Thinking, Fast and Slow
 
-<img alt="Thinking, Fast and Slow book cover" srcset="/images/thinking-fast-and-slow.jpg 1x, /images/thinking-fast-and-slow@2x.jpg 2x" src="/images/thinking-fast-and-slow.jpg">
+![Thinking, Fast and Slow book cover](/images/thinking-fast-and-slow.jpg)
 
 I'm a fan of pop psychology, and this one scratches that itch. You don't need any particular background to enjoy it; all the thought experiments are easy to understand and perform on yourself. As the author predicts, I always choose the less rational option even when the math says I should do otherwise. I'm a work in progress.
 
 ## Working Effectively With Legacy Code
 
-<img alt="Working Effectively With Legacy Code book cover" srcset="/images/working-effectively-with-legacy-code.jpg 1x, /images/working-effectively-with-legacy-code@2x.jpg 2x" src="/images/working-effectively-with-legacy-code.jpg">
+![Working Effectively With Legacy Code book cover](/images/working-effectively-with-legacy-code.jpg)
 
 This book's format is wonderfully practical. Each chapter presents a roadblock to testing (e.g. "my application is all API calls") and offers a solution. Its catalog of dependency-breaking techniques to make your code more testable is particularly valuable. I already use many of the techniques, but it's nice to have a name for them.
 
@@ -47,19 +47,19 @@ Unfortunately I have an uneasy feeling that I retained less than I should have. 
 
 ## The Pragmatic Programmer
 
-<img alt="The Pragmatic Programmer book cover" srcset="/images/pragmatic-programmer.jpg 1x, /images/pragmatic-programmer@2x.jpg 2x" src="/images/pragmatic-programmer.jpg">
+![The Pragmatic Programmer book cover](/images/pragmatic-programmer.jpg)
 
 This is my favourite technical book I've read in a while. Practical advice, entertaining anecdotes, sage wisdom. No single tip will massively change the way I work, but it's always good to have a reminder, say, about the dangers of shared state and oft-abused paradigms like inheritance. Like [*Code Complete*](https://www.amazon.com/gp/product/0735619670/), I wish I had read this earlier in my career.
 
 While reading I also listened to the [Coding Blocks episodes](https://www.codingblocks.net/tag/the-pragmatic-programmer/) where they talk through each chapter. They discuss the original edition rather than the second one that I read, but it sounds like the chapters mostly cover the same material. I enjoyed consuming both the text and conversation about it at the same time; I’ll be sure to look for a relevant podcast when I crack open my next technical book.
 
-<img alt="Notes on The Pragmatic Programmer" srcset="/images/pragmatic-programmer-notes.jpg 1x, /images/pragmatic-programmer-notes@2x.jpg 2x" src="/images/pragmatic-programmer-notes.jpg">
+![Notes on The Pragmatic Programmer](/images/pragmatic-programmer-notes.jpg)
 
 I also took notes this time. Makes for slower reading but retention is off the charts.
 
 ## A Song of Ice and Fire
 
-<img alt="A Song of Ice and Fire book spines" srcset="/images/song-of-ice-and-fire.jpg 1x, /images/song-of-ice-and-fire@2x.jpg 2x" src="/images/song-of-ice-and-fire.jpg">
+![A Song of Ice and Fire book spines](/images/song-of-ice-and-fire.jpg)
 
 Pure buttery popcorn.
 

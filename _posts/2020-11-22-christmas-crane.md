@@ -8,7 +8,7 @@ Occasionally I spot the crane operator climbing or descending the stairs. They m
 
 This week the crane's Christmas lights turned on. Did the construction crew have the foresight to attach them in the summer before erecting the crane, or are they a permanent fixture like the lights on my dad's outdoor trees? Did some poor sap draw the short straw and have to climb out and string them up? Is that one of the crane operator's duties?
 
-<img alt="Crane Christmas lights" srcset="/images/christmas-crane.jpg 1x, /images/christmas-crane@2x.jpg 2x" src="/images/christmas-crane.jpg">
+![Crane Christmas lights](/images/christmas-crane.jpg)
 
 I'd like to make friends with a crane operator. And not just because of their impressive quads.
 

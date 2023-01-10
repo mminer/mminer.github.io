@@ -8,7 +8,7 @@ I love music though and regret never learning an instrument. I own a guitar and 
 
 I signed up for weekly lessons at Long & McQuade. The book we use is *[Alfred's Basic Adult All-in-One Course](https://www.alfred.com/alfreds-basic-adult-all-in-one-course-book-1/p/00-5753/)*. It has its fair share of those church songs that tormented me as a kid, but I like its mix of theory, songs, and hot tips for becoming Elton John.
 
-<img alt="Alfred's Basic Adult All-in-One Course" srcset="/images/piano-book.jpg 1x, /images/piano-book@2x.jpg 2x" src="/images/piano-book.jpg">
+![Alfred's Basic Adult All-in-One Course](/images/piano-book.jpg)
 
 Before Christmas I participated in a recital. Most of my fellow pianists were preteens clearly forced to be there by their parents. I had a ball though playing on the auditorium's big old grand piano. Here's my rendition of *Standing in the Need of Prayer*. I also played a sea shanty called *Blow the Man Down* --- a real banger, 10x cooler than *SitNoP* --- but my performance went off the rails halfway through so it's just the church jam today.
 

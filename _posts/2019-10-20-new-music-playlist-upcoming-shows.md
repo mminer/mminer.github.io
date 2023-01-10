@@ -8,7 +8,7 @@ I recently went to a Godspeed You! Black Emperor concert and wondered how I woul
 
 The [Just Shows](http://justshows.com) RSS feed provides a solid directory of upcoming acts (though only for Canadian cities it seems). Once a week I look up the newly listed bands and enqueue their top hits. I ought to automate this process. I'm told Apple Music has an API. Could happen.
 
-<img alt="Upcoming shows playlist in iTunes" srcset="/images/upcoming-shows-playlist.png 1x, /images/upcoming-shows-playlist@2x.png 2x" src="/images/upcoming-shows-playlist.png">
+![Upcoming shows playlist in iTunes](/images/upcoming-shows-playlist.png)
 
 The signal-to-noise ratio thus far is lower than I'd hoped. On the plus side, when I hear a band I enjoy I can see them live almost immediately. *And* I can pretend that I'm truly in the know when it comes to the local music scene. That's worth something.
 

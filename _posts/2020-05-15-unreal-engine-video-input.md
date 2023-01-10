@@ -16,9 +16,9 @@ Unreal supports capture cards from Blackmagic Design and AJA, but the cheapest o
 I opted instead for the BMD [DeckLink Mini
 Recorder](https://www.blackmagicdesign.com/products/decklink/techspecs/W-DLK-06). It's not officially supported, so it was a gamble.
 
-<img alt="DeckLink Mini Recorder box" srcset="/images/decklink-mini-recorder-box.jpg 1x, /images/decklink-mini-recorder-box@2x.jpg 2x" src="/images/decklink-mini-recorder-box.jpg">
+![DeckLink Mini Recorder box](/images/decklink-mini-recorder-box.jpg)
 
-<img alt="DeckLink Mini Recorder card" srcset="/images/decklink-mini-recorder-card.jpg 1x, /images/decklink-mini-recorder-card@2x.jpg 2x" src="/images/decklink-mini-recorder-card.jpg">
+![DeckLink Mini Recorder card](/images/decklink-mini-recorder-card.jpg)
 
 Fortunately it works a treat. Install the PCIe card, download Desktop Video from BMD's website, configure Unreal, and Bob's your uncle.[^2]
 

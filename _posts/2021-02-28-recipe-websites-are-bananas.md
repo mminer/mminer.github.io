@@ -6,7 +6,7 @@ Recently I made fudge. The recipe website I found is typical of recipe websites.
 
 This recipe website was especially egregious. I scrolled so far that I thought I missed the steps. But no, reaching them required more scrolling yet.
 
-<img alt="Long recipe website" src="/images/recipe-website.png">
+![Long recipe website](/images/recipe-website.png)
 
 Why do recipe websites resort to such madness? SEO? Optimism that I'll click an ad along the way? Or do visitors genuinely enjoy the preamble? Come for the pasta recipe, stay for the long-winded reminiscence about making homemade penne with Grandma Gertie in rural Saskatchewan in the 70s.
 

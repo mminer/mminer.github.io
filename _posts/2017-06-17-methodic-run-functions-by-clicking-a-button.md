@@ -22,11 +22,11 @@ class Brick : MonoBehaviour
 
 Nice job. Let's test your handiwork. There are plenty of ways to run the function, but Methodic provides the easiest. Click the brick game object, open *Window > Methodic*, hit "Invoke", and voilà: your brick detonates in a fiery blast.
 
-<img alt="Methodic Window" srcset="/images/methodic.png 1x, /images/methodic@2x.png 2x" src="/images/methodic.png">
+![Methodic Window](/images/methodic.png)
 
 No extra code necessary. Even groovier, if your function takes arguments, you can specify these using familiar checkboxes and text fields and colour pickers.
 
-<img alt="Methodic Window With Arguments" src="/images/methodic-arguments.png">
+![Methodic Window With Arguments](/images/methodic-arguments.png)
 
 Public, private, static, or instance function, Methodic runs them all. You can even execute functions when Unity is in edit mode.[^1] Still yawning? A video sells it better.
 

@@ -4,7 +4,7 @@ title: "Run Sourceless Plugins in a Custom Unreal Build"
 
 If you compile Unreal Engine from source and open a project, it might complain that some plugin modules "are missing or built with a difference engine version," despite being built with the same semantic version.
 
-<img alt="Unreal Engine missing modules dialog" src="/images/unreal-missing-modules.png">
+![Unreal Engine missing modules dialog](/images/unreal-missing-modules.png)
 
 If your plugin includes its source, rebuild and carry on friend. But if not --- if it's a binaries-only distribution --- you need to edit a file to make it work.[^1]
 

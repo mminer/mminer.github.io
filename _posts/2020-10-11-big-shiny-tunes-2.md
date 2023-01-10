@@ -4,7 +4,7 @@ title: "<em>Big Shiny Tunes 2</em>"
 
 The first album I bought was *Big Shiny Tunes 2*.[^1] Compilation albums are anachronistic today, but in the 90s they were an economical way to get a playlist of great music. *BST2* was an especially good one.
 
-<img alt="Big Shiny Tunes 2 CD" src="/images/big-shiny-tunes-2.jpg">
+![Big Shiny Tunes 2 CD](/images/big-shiny-tunes-2.jpg)
 
 The title will be unfamiliar to those outside Canada, produced as it was by Canadian music channel MuchMusic, but here in the north it was a hit. It remains the [4th best selling album since 1995](https://en.wikipedia.org/wiki/List_of_best-selling_albums_in_Canada). It eclipses Britney Spears' *...Baby One More Time*. It even surpasses Aqua's magnum opus *Aquarium*. *BST2* **sold**.
 

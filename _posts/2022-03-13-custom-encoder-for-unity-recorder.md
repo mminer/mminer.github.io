@@ -6,7 +6,7 @@ Unity's Recorder allows you to capture gameplay videos as H.264, WebM, or ProRes
 
 First we'll install Recorder v4 in our project. At present it's a preview package (4.0.0-pre.3) and won't automatically appear in the package manager until you open *Project Settings > Package Manager* and turn on "Enable Pre-release Packages".
 
-<img alt="Recorder pre-release in Unity's package manager" src="/images/recorder-v4-package-manager.png">
+![Recorder pre-release in Unity's package manager](/images/recorder-v4-package-manager.png)
 
 Let's suppose we want to save HVEC (H.265) files. I don't actually want to write an HVEC encoder from scratch --- not that I can't, I mean how hard can it be, easy peasy right? --- but fortunately we can use [FFmpeg](https://www.ffmpeg.org) to do the heavy lifting. All we need to do is wire up our custom Recorder encoder to pass raw video data to an FFmpeg process.
 
@@ -101,7 +101,7 @@ public void AddVideoFrame(NativeArray<byte> bytes, MediaTime time)
 
 With our `IEncoder` and `IEncoderSettings` implementations complete we see a new option named "HVEC (H.265) Encoder" in Recorder's *Encoder* field.
 
-<img alt="Recorder HVEC encoder" srcset="/images/recorder-hvec-encoder.png 1x, /images/recorder-hvec-encoder@2x.png 2x" src="/images/recorder-hvec-encoder.png">
+![Recorder HVEC encoder](/images/recorder-hvec-encoder.png)
 
 And if we did everyting right it spits out an HVEC file when we start recording.
 

@@ -6,7 +6,7 @@ Recently I bought a dictionary, something I suspect few others are doing in 2020
 
 I bought the beefiest one I could find, the *Oxford Dictionary of English*. It's a hefty tome. In a pinch you can use it to stave off a home invasion.
 
-<img alt="Oxford Dictionary of English" srcset="/images/oxford-dictionary-of-english.jpg 1x, /images/oxford-dictionary-of-english@2x.jpg 2x" src="/images/oxford-dictionary-of-english.jpg">
+![Oxford Dictionary of English](/images/oxford-dictionary-of-english.jpg)
 
 Along the way I learned that the *Oxford Dictionary of English* is distinct from the *Oxford English Dictionary*. While the book I bought defines a respectable ~350,000 words, the *OED* is an ongoing project to document the entirety of the English language. The second edition was published in 1989 as a mammoth 20 volume set.[^2] Oxford expects to complete the third edition in 2037, at which point it will require the entire Amazon rainforest to print a copy.
 

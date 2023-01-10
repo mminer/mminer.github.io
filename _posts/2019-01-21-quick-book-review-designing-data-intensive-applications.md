@@ -4,7 +4,7 @@ title: "Quick Book Review: <em>Designing Data-Intensive Applications</em>"
 
 I wish I read *[Designing Data-Intensive Applications](https://dataintensive.net)* years ago when I first started building web services and deciding which databases and processing systems to use.[^1] It's a well-written overview of the distributed systems landscape, exploring the underlying ideas behind different offerings and the tradeoffs they make when ingesting and storing data.
 
-<img alt="Designing Data-Intensive Applications book cover" src="/images/designing-data-intensive-applications.png">
+![Designing Data-Intensive Applications book cover](/images/designing-data-intensive-applications.png)
 
 The profusion of options remains bewildering --- the practical difference between ActiveMQ and RabbitMQ still escapes me --- but I now at least have a better understanding of two-phase commit, where stream processors with durable storage like Kafka fit in, and when you might want to use a more exotic database like Voldemort (other than the cool name which alone makes me want to use it for *something*).
 

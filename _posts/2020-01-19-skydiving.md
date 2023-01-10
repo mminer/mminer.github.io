@@ -8,7 +8,7 @@ Last June I went skydiving, edging out our annual pilgrimage to the tulip festiv
 
 We went to [Skydive Vancouver](https://www.vancouver-skydiving.bc.ca). It's run by a friendly Australian couple. I'm unsure why, but where there's adventure to be had --- whether it be whitewater rafting in Squamish or skiing in Whistler --- you find Aussies running the show. It's in their blood.
 
-<img alt="Skydiving suit up" srcset="/images/skydiving-suit-up.jpg 1x, /images/skydiving-suit-up@2x.jpg 2x" src="/images/skydiving-suit-up.jpg">
+![Skydiving suit up](/images/skydiving-suit-up.jpg)
 
 They waste no time getting you in the air. They clinch you in tight (like *real tight*, yowza), stick a goofy cone hat on your head (the instructors have cool helmets straight out of *Mission Impossible*), then jam you into a tiny plane. After a short, noisy flight they slide open the door and you ponder why humans do such things. At least that's what I did. We're strange animals.
 
@@ -18,10 +18,10 @@ Then out the door. I didn't expect to somersault before doing the flying squirre
 
 Then your parachute opens, the instructor does dips and turns to make your stomach churn, and in no time you're on the ground again.
 
-<img alt="Skydiving on ground" srcset="/images/skydiving-on-ground.jpg 1x, /images/skydiving-on-ground@2x.jpg 2x" src="/images/skydiving-on-ground.jpg">
+![Skydiving on ground](/images/skydiving-on-ground.jpg)
 
 They give you a certificate to commemorate your first jump. It was given to me by the owners' maybe-11-year-old granddaughter who had already done loads of jumps herself, but I still feel accomplished.
 
-<img alt="Skydiving first jump certificate" srcset="/images/skydiving-certificate.jpg 1x, /images/skydiving-certificate@2x.jpg 2x" src="/images/skydiving-certificate.jpg">
+![Skydiving first jump certificate](/images/skydiving-certificate.jpg)
 
 Would recommend.

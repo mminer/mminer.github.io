@@ -18,7 +18,7 @@ In the past our level editing strategy (and, I suspect, that of many fellow deve
 
 This lead us to think: why not use Photoshop itself? It already played an indispensible role in our workflow and its painting tools are top notch; a natural fit. We planned to use a tile-based level system, so each pixel could represent a square and we could use the colour of the pixel to identify which tile / prefab it represents. Black pixels for terrain, green for planets, blue for spawn points, and so forth. As long as all the developers knew which colours represented which tiles (an easy task since there were only two of us), constructing levels would be straightforward.
 
-<img alt="Orbert level" src="/images/orbert-level.png">
+![Orbert level](/images/orbert-level.png)
 
 In Unity, a C# script reads the colour values of the pixels and instantiats their corresponding prefabs at runtime.[^1] [`Texture2D.GetPixels`](http://docs.unity3d.com/ScriptReference/Texture2D.GetPixels.html) makes this step a cinch.
 
@@ -58,7 +58,7 @@ One trick that eases this process is setting the colour mode in Photoshop to [in
 
 To stitch the terrain tiles together in a visually pleasing way, we use several different sprites combined with a technique called bitmasking. I'll avoid going into details here, but for an excellent overview of bitmasking check out [Adventures in Bitmasking](http://www.angryfishstudios.com/2011/04/adventures-in-bitmasking/) from Angry Fish Games.
 
-<img alt="Orbert in Unity" src="/images/orbert-unity.png">
+![Orbert in Unity](/images/orbert-unity.png)
 
 This approach works superbly for *Orbert*, but it admittedly only does so because the game has limitations that lend themselves well to such a simplified editor. It employs a handful of tiles, making remembering which colours represent each effortless. It also lacks any "moving parts" apart from the player. If we want RPCs that shuffle around the level on a pre-defined path, for example, we require something more sophisticated than a 2D grid.
 
