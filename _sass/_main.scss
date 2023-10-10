@@ -273,6 +273,14 @@ video {
   .youtube  svg { top: -1px; }
 }
 
+.footnote::before {
+  content: "[";
+}
+
+.footnote::after {
+  content: "]";
+}
+
 .footnotes {
   font-size: 1.4rem;
 
@@ -292,6 +300,10 @@ video {
   ol {
     /* Add extra space to keep list numbers inside article width. */
     padding-left: 2rem;
+  }
+
+  :target {
+    background-color: #eee;
   }
 }
 
