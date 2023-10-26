@@ -19,31 +19,15 @@ ul {
 
 a {
   color: #2980b9;
-  text-decoration: none;
+  text-decoration-thickness: 0.1rem;
+  text-underline-offset: 0.3rem;
 
-  /* Use slightly-nicer spaced underline. */
-  border-bottom: 1px solid #2980b9;
-
-  &.image-link {
-    border-bottom-width: 0;
-  }
-
-  &:has(code) {
-    border-bottom-width: 0;
-  }
-
-  &:hover {
-    border-color: transparent;
-    color: #20638f;
+  &.image-link, &:has(code), &:hover {
+    text-decoration: none;
   }
 
   &:visited {
-    border-color: #8e44ad;
     color: #8e44ad;
-
-    &:hover {
-      color: #703688;
-    }
   }
 }
 
@@ -59,8 +43,8 @@ article {
     margin-bottom: 4rem;
 
     a, a:hover, a:visited, a:visited:hover {
-      border-width: 0;
       color: inherit;
+      text-decoration: none;
     }
 
     h1 {
@@ -189,10 +173,6 @@ small {
   font-size: 1.4rem;
 }
 
-sup a {
-  border-width: 0;
-}
-
 ul {
   list-style-type: square;
 }
@@ -203,13 +183,12 @@ video {
 
 [role="banner"] {
   a {
-    border-bottom: 2px solid #000;
     color: inherit;
     display: block;
-    padding-bottom: 2px;
+    text-decoration-thickness: 0.2rem;
+    text-underline-offset: 0.6rem;
 
     &:hover {
-      border-color: transparent;
       color: inherit;
     }
   }
@@ -273,6 +252,10 @@ video {
   .youtube  svg { top: -1px; }
 }
 
+.footnote {
+  text-decoration: none;
+}
+
 .footnote::before {
   content: "[";
 }
@@ -308,8 +291,8 @@ video {
 }
 
 .reversefootnote {
-  border-width: 0;
   font-size: 75%;
+  text-decoration: none;
 }
 
 /* Make videos scale to fit mobile.
