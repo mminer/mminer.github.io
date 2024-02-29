@@ -350,5 +350,5 @@ Task notifications. Asynchronous communication. All part of the American Dream.
 ---
 
 <small>
-    Code snippets from this post [viewable on GitHub](https://github.com/mminer/blog-code/tree/master/pattern-for-async-task-queue-results).
+    Code snippets [on GitHub](https://github.com/mminer/blog-code/tree/master/pattern-for-async-task-queue-results).
 </small>

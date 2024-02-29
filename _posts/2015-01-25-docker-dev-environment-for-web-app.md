@@ -147,7 +147,7 @@ There you have it, a lightweight, isolated, auto-reloading web server running in
 ---
 
 <small>
-    Code snippets from this post [viewable on GitHub](https://github.com/mminer/blog-code/tree/master/docker-dev-environment-for-web-app).
+    Code snippets [on GitHub](https://github.com/mminer/blog-code/tree/master/docker-dev-environment-for-web-app).
     <br>
     Thanks to [@ppawiggers](https://twitter.com/ppawiggers) for corrections.
 </small>

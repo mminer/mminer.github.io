@@ -110,7 +110,7 @@ This is a bare-bones example --- no error handling, no threading, no control ove
 ---
 
 <small>
-    Complete code [viewable on GitHub](https://gist.github.com/mminer/76928a2403da491ac170f1055994247b).
+    Complete code [on GitHub](https://gist.github.com/mminer/76928a2403da491ac170f1055994247b).
 </small>
 
 [^1]: I'm unsure if you can simultaneously record audio and video with one FFmpeg process. What you might do instead is use two processes, one to encode video and another for audio, then [merge them together](https://superuser.com/a/277667) when recording stops.

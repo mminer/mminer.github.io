@@ -71,7 +71,7 @@ Cool? Cool.
 ---
 
 <small>
-    Code snippets from this post [viewable on GitHub](https://github.com/mminer/blog-code/tree/master/level-editing-off-the-beaten-path).
+    Code snippets [on GitHub](https://github.com/mminer/blog-code/tree/master/level-editing-off-the-beaten-path).
 </small>
 
 [^1]: This is a simplication. Small as they were, we wanted to avoid shipping 100 PNGs with the game and needlessly addding bloat, so we wrote an editor script which translates the images to ASCII files when they're added to the project.
