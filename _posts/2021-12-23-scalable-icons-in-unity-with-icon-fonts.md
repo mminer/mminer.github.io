@@ -7,8 +7,8 @@ Need scalable icons in your Unity GUI? Icon fonts might be for you.
 As aficionados of Wingdings know well, fonts can contain not only letters but also shapes. Web developers picked up on this a decade ago and started using fonts to display icons. Pack symbols into a font file, assign each a character, then use the browser's text rendering to draw them crisply at any size and with any colour. This solves a few problems:
 
 1. Browser support for vector image formats like SVG is spotty (or rather it was; today it's excellent).
-2. A single file can contain thousands of symbols, minimizing HTTP requests which hamper page load time.
-3. Vector images are small. A font with 1,000 glyphs might weigh in at 200 KB.
+1. A single file can contain thousands of symbols, minimizing HTTP requests which hamper page load time.
+1. Vector images are small. A font with 1,000 glyphs might weigh in at 200 KB.
 
 Some of these concerns are irrelevant to Unity projects, but icon fonts are still an elegant way to provide a library of icons that scale to any dimensions with no degradation.
 

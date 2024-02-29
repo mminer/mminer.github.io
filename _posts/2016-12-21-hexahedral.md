@@ -11,9 +11,9 @@ In the spirit of better-late-than-never, let me show you a game I built this pas
 To keep the scope manageable while flying solo I self-imposed limitations:
 
 1. Graphics no fancier than primitive shapes.
-2. Use tech I'm already familiar with. Hold the Haskell.
-3. Core mechanics complete by Friday night. Sunday reserved for polish and additional levels.
-4. No skimping on nutrition and sleep. Game jams should be fun.
+1. Use tech I'm already familiar with. Hold the Haskell.
+1. Core mechanics complete by Friday night. Sunday reserved for polish and additional levels.
+1. No skimping on nutrition and sleep. Game jams should be fun.
 
 At the same time I wanted an end result that I could demo without embarrassment or a "this was made in a weekend, be gentle, I'm a tiny speck of dust in a vast universe" disclaimer. To that end I established four goals before starting.
 

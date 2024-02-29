@@ -33,9 +33,9 @@ I also added an `ffmpegPath` field so that we can specify the location of the FF
 Now onto the more interesting `IEncoder`. We need to implement four functions:
 
 1. `OpenStream`
-2. `CloseStream`
-3. `AddVideoFrame`
-4. `AddAudioFrame`
+1. `CloseStream`
+1. `AddVideoFrame`
+1. `AddAudioFrame`
 
 `OpenStream` runs when the recording starts, `AddVideoFrame` runs every frame, and `CloseStream` runs when the recording stops. For this example I'm going to ignore audio.[^1]
 
