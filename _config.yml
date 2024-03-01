@@ -20,7 +20,5 @@ plugins:
 compress_html:
   clippings: all
   comments: ["/*! ", " */"]
-redcarpet:
-  extensions: ["smart"]
 sass:
   style: compressed
