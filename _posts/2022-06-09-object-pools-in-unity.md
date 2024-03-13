@@ -59,6 +59,6 @@ class RainSystem : MonoBehaviour
 
 Observe that the console stops printing "New droplet" after a few times, because no new instances are being created. `ObjectPool` is working its magic.
 
-<video autoplay loop src="/videos/object-pool.mp4"></video>
+<video autoplay height="302" loop src="/videos/object-pool.mp4" width="660"></video>
 
 That's it. Object pools --- that [basic but essential](https://gameprogrammingpatterns.com/object-pool.html) pattern you've probably implemented a dozen times, now available out of the box.

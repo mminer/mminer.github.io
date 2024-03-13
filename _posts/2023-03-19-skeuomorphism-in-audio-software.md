@@ -12,7 +12,7 @@ Or the Pedalboard.
 
 I especially like the Vintage B3 Organ. Not only does it have scuffs on its wooden panel, but also an animated... spinning thing (I don't know enough about organs to tell you what this is).
 
-<video autoplay loop src="/videos/logic-vintage-b3-organ.mp4"></video>
+<video autoplay height="430" loop src="/videos/logic-vintage-b3-organ.mp4" width="660"></video>
 
 Some instrument UIs are downright wacky. This is the EVOC 20 PS, which looks like a panel in a retrofuturistic spaceship.
 

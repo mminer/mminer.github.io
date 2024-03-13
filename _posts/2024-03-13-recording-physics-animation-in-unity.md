@@ -4,7 +4,7 @@ title: "Recording Physics Animation in Unity"
 
 *The Gardens Between* is a pretty game, but what grabbed my attention is a mechanic that simulates physics as you walk forward then reverses it when you backtrack, akin to scrubbing on a timeline.
 
-<video autoplay loop src="/videos/gardens-between-popcorn.mp4"></video>
+<video autoplay height="371" loop src="/videos/gardens-between-popcorn.mp4" width="660"></video>
 
 Eye-catching, right? I wasted many minutes walking back and forth watching popcorn explode then recoil into its bowl. The game has some story about childhood friendship, but I remember the popcorn.
 
@@ -30,7 +30,7 @@ class Explosion : MonoBehaviour
 }
 ```
 
-<video autoplay loop src="/videos/recorder-animation-physics.mp4"></video>
+<video autoplay height="347" loop src="/videos/recorder-animation-physics.mp4" width="660"></video>
 
 But how to reverse the simulation? This is where Recorder comes in. I've written about Recorder before — it's a handy way to [take screenshots](/2021/06/27/screenshots-with-unity-recorder) and [capture gameplay videos](/2021/05/23/big-image-recorder-for-unity). Less obviously, it can also record physics simulations as animation to later play on demand.
 
@@ -57,7 +57,7 @@ At this point we can change our crate rigidbodies to kinematic and disable gravi
 
 If we wired this up correctly, we can hit play to see our recorded explosion.
 
-<video autoplay loop src="/videos/recorder-animation-timeline.mp4"></video>
+<video autoplay height="347" loop src="/videos/recorder-animation-timeline.mp4" width="660"></video>
 
 Finally, let's uncheck *Play On Awake* on the Playable Director and create our own component to control playback.
 
@@ -93,7 +93,7 @@ class ExplosionPlayback : MonoBehaviour
 
 Attach this to the game object containing the Playable Director, hit play, and scrub back and forth using the left and right arrow keys.
 
-<video autoplay loop src="/videos/recorder-animation-scrubbing.mp4"></video>
+<video autoplay height="347" loop src="/videos/recorder-animation-scrubbing.mp4" width="660"></video>
 
 Now that's satisfying.
 
