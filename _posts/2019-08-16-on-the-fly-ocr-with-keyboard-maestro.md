@@ -8,7 +8,7 @@ Version 9 of automation Swiss army knife Keyboard Maestro [just dropped](https:/
 
 `screencapture -c -s` copies a custom selection of the screen to the clipboard, effectively the same thing as hitting <kbd>command</kbd> <kbd>control</kbd> <kbd>shift</kbd> <kbd>4</kbd>. Keyboard Maestro then grabs the image, performs its OCR magic, then slaps the result back on the clipboard.
 
-<video autoplay loop src="/videos/keyboard-maestro-ocr.mp4"></video>
+<video autoplay height="412" loop src="/videos/keyboard-maestro-ocr.mp4" width="660"></video>
 
 The initial results are promising. It occasionally returns gibberish --- it has difficulty processing small UI elements on non-Retina screens --- but for the mostpart it works a treat.
 

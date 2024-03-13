@@ -68,7 +68,7 @@ static void MoveSceneViewToBookmark()
 
 And that's it. After zooming and panning around, press <kbd>shift</kbd> <kbd>1</kbd> to return the scene view to the position you previously bookmarked. Now you're cooking with gas.
 
-<video autoplay loop src="/videos/scene-view-bookmarks.mp4"></video>
+<video autoplay height="412" loop src="/videos/scene-view-bookmarks.mp4" width="660"></video>
 
 ## Refinements
 

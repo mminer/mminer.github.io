@@ -22,7 +22,7 @@ Recorder](https://www.blackmagicdesign.com/products/decklink/techspecs/W-DLK-06)
 
 Fortunately it works a treat. Install the PCIe card, download Desktop Video from BMD's website, configure Unreal, and Bob's your uncle.[^2]
 
-<video controls src="/videos/unreal-video-input.mp4"></video>
+<video controls height="371" src="/videos/unreal-video-input.mp4" width="660"></video>
 
 ## Alternatives
 

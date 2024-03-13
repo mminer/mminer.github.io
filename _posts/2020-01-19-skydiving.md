@@ -4,7 +4,7 @@ title: "Skydiving"
 
 Last June I went skydiving, edging out our annual pilgrimage to the tulip festival as the highest-octane thing I did in 2019.
 
-<video controls src="/videos/skydiving-jump.mp4"></video>
+<video controls height="371" src="/videos/skydiving-jump.mp4" width="660"></video>
 
 We went to [Skydive Vancouver](https://www.vancouver-skydiving.bc.ca). It's run by a friendly Australian couple. I'm unsure why, but where there's adventure to be had --- whether it be whitewater rafting in Squamish or skiing in Whistler --- you find Aussies running the show. It's in their blood.
 
@@ -14,7 +14,7 @@ They waste no time getting you in the air. They clinch you in tight (like *real 
 
 Then out the door. I didn't expect to somersault before doing the flying squirrel pose. That was a surprise. It also feels incredibly fast. This is a silly thing to say --- you free-fall straight down, what did I expect? --- but I hadn't anticipated *how* fast it feels as you plunge to the ground. My mouth became instantly dry. I swallowed a few bugs. Gravity is no joke.
 
-<video controls src="/videos/skydiving-landing.mp4"></video>
+<video controls height="371" src="/videos/skydiving-landing.mp4" width="660"></video>
 
 Then your parachute opens, the instructor does dips and turns to make your stomach churn, and in no time you're on the ground again.
 

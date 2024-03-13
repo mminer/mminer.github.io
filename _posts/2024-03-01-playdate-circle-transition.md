@@ -40,7 +40,7 @@ function playdate.rightButtonDown()
 end
 ```
 
-<video autoplay loop src="/videos/playdate-circle-transition-1.mp4"></video>
+<video autoplay height="396" loop src="/videos/playdate-circle-transition-1.mp4" width="660"></video>
 
 Now for that overlay and mask.
 
@@ -74,7 +74,7 @@ end
 
 The interesting API here is `playdate.graphics.pushContext`. This allows us to draw to an image instead of directly to the screen. We take that mask image --- a solid black circle against a white background --- and apply it to the overlay, which we *do* draw to the screen. Black pixels become transparent, white ones stay opaque.
 
-<video autoplay loop src="/videos/playdate-circle-transition-2.mp4"></video>
+<video autoplay height="396" loop src="/videos/playdate-circle-transition-2.mp4" width="660"></video>
 
 Let's animate this. We could use `playdate.graphics.animator` to animate the circle radius, but I like that `playdate.timer` allows us to set an update callback and call `drawCircleCutout` from there.
 
@@ -115,7 +115,7 @@ end
 
 The timer's value changes from -400 to 400 over the duration of the transition. A negative radius makes no sense, so `abs` makes it positive. The result is a circle radius that bounces from 400 to 0 then back again.
 
-<video autoplay loop src="/videos/playdate-circle-transition-3.mp4"></video>
+<video autoplay height="396" loop src="/videos/playdate-circle-transition-3.mp4" width="660"></video>
 
 A start and end radius of 400 ensures that the circle is outside the bounds of the screen when the transition starts, but in most cases this is unnecessarily large and results in several frames of animation that appear to do nothing. Let's instead calculate the exact radius we need.
 
@@ -152,7 +152,7 @@ Lastly, your players deserve better than linear easing.
         playdate.easingFunctions.inOutQuad)
 ```
 
-<video autoplay loop src="/videos/playdate-circle-transition-4.mp4"></video>
+<video autoplay height="396" loop src="/videos/playdate-circle-transition-4.mp4" width="660"></video>
 
 That's all folks!
 

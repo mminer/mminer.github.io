@@ -84,7 +84,7 @@ The secret sauce is `_symbolGlyphMap`. It translates `Symbol` members to the Uni
 
 In UI Builder you can choose the symbol from a dropdown in the inspector then change its color and font size styles. Give it an outline or text shadow if you feel adventurous.
 
-<video autoplay loop src="/videos/ui-builder-icon.mp4"></video>
+<video autoplay height="413" loop src="/videos/ui-builder-icon.mp4" width="660"></video>
 
 There are oodles of great icon fonts like the aforementioned Font Awesome, but you can also create your own using online tools like [IcoMoon](https://icomoon.io). Upload your SVGs, choose which character corresponds to each icon, and download a TTF file to import into your Unity project.
 
